@@ -1,0 +1,2 @@
+def myname():
+    return "Liss"

@@ -1,4 +1,4 @@
 def name_function():
-    print("My name is Sanne")
+    print("Sanne")
 
 name_function

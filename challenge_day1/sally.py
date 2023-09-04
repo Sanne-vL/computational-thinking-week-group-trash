@@ -1,2 +1,2 @@
 def get_name():
-    print("sally")
+    return "Sally"

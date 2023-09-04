@@ -6,5 +6,6 @@ from sanne_name import name_function
 from bibi import getname
 from team import team
 
-print(team, name, my_name, myname, get_name, name_function, getname)
+print(f"{team()} {name()}, {my_name()}, {myname()}, {get_name()}, {name_function()}, {getname()}")
+
 

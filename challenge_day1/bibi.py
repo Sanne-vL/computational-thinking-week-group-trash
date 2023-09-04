@@ -1,8 +1,3 @@
-from caio_function import overlords
-from hielke_name import sorcerers
-from liss_name import triske
-from sally import cloak
-from sanne_name import gitorc
 
 def getname():
     return "Beatris"

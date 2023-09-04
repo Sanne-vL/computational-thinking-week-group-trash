@@ -1,8 +1,4 @@
-from caio_function import overlords
-from liss_name import triske
-from sally import cloak
-from sanne_name import gitorc
-from bibi import garlok
+
 
 def my_name():
     return 'Hielke'

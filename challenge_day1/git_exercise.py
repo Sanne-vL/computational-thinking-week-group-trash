@@ -8,4 +8,4 @@ from team import team
 
 print(f"{team()} {name()}, {my_name()}, {myname()}, {get_name()}, {name_function()}, {getname()}")
 
-print(f"{ para3()}")
+print(para3(overlords, sorcerers, triske, garlok, cloak, gitorc))

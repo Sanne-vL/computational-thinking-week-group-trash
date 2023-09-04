@@ -1,2 +1,2 @@
-def myname():
+def my_name():
     return 'Hielke'

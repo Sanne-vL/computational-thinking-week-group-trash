@@ -7,7 +7,7 @@ def cloak():
     return "Cloaked Ones"
 
 def para4(overlords, sorcerers, triske, garlok, cloak, gitorc):
-    return f"Great misfortune banded the {sorcerers()} together, including {triske()} from the 8th Dimension, an especially cunning warrior, and secret offspring of {garlok()}. The second year of the Everlasting Uprising left them abandoned to their own devices, thanks to the {overlords()} who serve the evil {gitorc()}. The {cloak()}, who were created by the {overlords()} to protect Earth-2’s surviving populus from the {gitorc()}, refused the {sorcerers()}’s desperate pleas for help in defeating the {gitorc()}."
+    return f"Great misfortune banded the {sorcerers()} together, including {triske()} from the 8th Dimension, and especially cunning warrior, and secret offspring of {garlok()}. The second year of the Everlasting Uprising left them abandoned to their own devices, thanks to the {overlords()} who serve the evil {gitorc()}. The {cloak()}, who were created by the {overlords()} to protect Earth-2’s surviving populus from the {gitorc()}, refused the {sorcerers()}’s desperate pleas for help in defeating the {gitorc()}."
 
 def para10(overlords, sorcerers, triske, garlok, cloak, gitorc):
     return f"Meanwhile, {triske()} had been rallying the {cloak()} in order to begin an uprising to slay {garlok()}, much to the chagrin of the {sorcerers()}. Fearing the demise of their god, the {sorcerers()} were forced to make a pact with the {overlords()}, with whom they’ve had an eternal conflict. Forced to put their differences aside, they combined their dark arts abilities to tame the {gitorc()} to use in battle against {triske()} and her new allies."

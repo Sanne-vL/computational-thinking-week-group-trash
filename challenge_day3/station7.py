@@ -8,6 +8,5 @@ def solution_station_7(n):
     answer = eval(n)
     return answer
 
-n = str(input())
 final = solution_station_7(n)
 print(float(final))

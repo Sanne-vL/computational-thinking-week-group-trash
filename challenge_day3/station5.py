@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 
@@ -13,7 +12,7 @@ team_8 = ["Alyssa", "Beatris", "Caio", "Hielke", "Sally", "Sanne"]
 team_9 = ["Atlas", "Diana", "Eliana", "Felix", "Yash"]
 team_10 = ["Akanksha", "Al-fatihi", "Andrey", "Charlie", "Hugo", "Max"]
 team_11 = ["Alicja", "Cristian", "Ella", "Ioanna", "misha", "Vanessa"]
-team_12 = ["Alexia", "Jelle", "Karolina", "Luca", "Yueyue"]
+team_12 = ["Alexia", "Jelle", "Karolina", "Luca", "Yuyue"]
 
 data = {"name" : [i for i in [team_1, team_2, team_3, team_4, team_5, team_6, team_7, team_8, team_9, team_10, team_11, team_12]],
         "group" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]}
@@ -24,6 +23,5 @@ df = df.explode("name")
 def solution_station_5(name):
     result = df[df["name"] == name].iloc[0, 1]
     return result
-=======
-# hint: allowed to talk to other groups
->>>>>>> 234f347d7e865d280e6af12defc6ca364ea923d2
+
+print(solution_station_5("Yuyue"))

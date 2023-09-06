@@ -15,7 +15,7 @@ def solution_station_1(n):
             second = nth
             count += 1
 
-        return second
+        return int(second)
 
 # n = int(input())
 # result = solution_station_1(n)

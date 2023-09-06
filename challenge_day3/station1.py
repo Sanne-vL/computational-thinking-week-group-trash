@@ -17,6 +17,6 @@ def solution_station_1(n):
 
         return second
 
-n = int(input())
-result = solution_station_1(n)
-print(f'The {n}-th Fibonacci number is {result}')
+# n = int(input())
+# result = solution_station_1(n)
+# print(f'The {n}-th Fibonacci number is {result}')

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 
@@ -23,3 +24,6 @@ df = df.explode("name")
 def solution_station_5(name):
     result = df[df["name"] == name].iloc[0, 1]
     return result
+=======
+# hint: allowed to talk to other groups
+>>>>>>> 234f347d7e865d280e6af12defc6ca364ea923d2

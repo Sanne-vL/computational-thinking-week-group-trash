@@ -1,0 +1,1 @@
+# hint: allowed to talk to other groups

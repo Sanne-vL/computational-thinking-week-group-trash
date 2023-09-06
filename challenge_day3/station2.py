@@ -12,9 +12,9 @@ def get_day_of_week(date_str):
 
     return day_name
    
-input_date = input()
-day = get_day_of_week(input_date)
-print(f"{day}")
+#input_date = input()
+#day = get_day_of_week(input_date)
+#print(f"{day}")
 
 
 

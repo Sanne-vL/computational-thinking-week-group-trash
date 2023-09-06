@@ -15,5 +15,5 @@ plt.plot(x, y)
 plt.plot(x, y_pred)
 
 def solution_station_6(x):
-    return model.coef_[1]  x * 2 + model.coef_[1] * x + model.intercept_
+    return model.coef_[1] * x ** 2 + model.coef_[1] * x + model.intercept_
 

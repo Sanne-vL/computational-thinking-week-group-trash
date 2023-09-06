@@ -21,5 +21,5 @@ df = pd.DataFrame(data)
 df = df.explode("name")
 
 def solution_station_5(name):
-    result = df[df["name"] == name].iloc[0, 1]
+    result = str(df[df["name"] == name].iloc[0, 1])
     return result

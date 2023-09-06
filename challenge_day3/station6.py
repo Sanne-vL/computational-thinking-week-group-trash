@@ -8,7 +8,7 @@ y = [0.5646, 0.7174, 0.8912, 0.9975, 0.9463, 0.2392]
 
 
 def solution_station_6(x):
-    return math.sin(x)
+    return float(math.sin(x))
 
 
 

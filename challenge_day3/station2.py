@@ -10,7 +10,7 @@ def solution_station_2(date_str):
 
     day_name = weekday_names[day_of_week]
 
-    return day_name
+    return str(day_name)
    
 #input_date = input()
 #day = get_day_of_week(input_date)

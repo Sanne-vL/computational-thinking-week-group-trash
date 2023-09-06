@@ -8,5 +8,5 @@ def solution_station_7(n):
     answer = eval(n)
     return answer
 
-final = solution_station_7(n)
-print(float(final))
+#final = solution_station_7(n)
+#print(float(final))

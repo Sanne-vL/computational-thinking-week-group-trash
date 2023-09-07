@@ -4,7 +4,7 @@ import scala.util.Try
 object Main {
   def main(args: Array[String]): Unit = {
     val filePath = "data6.txt"
-    val lines = scala.io.Source.fromFile(filePath).getLines().toList
+    val lines = scala.io.Source.fromFile(/Users/liss/Desktop/TRASHGIT/computational-thinking-week-group-trash/challenge_day4/fulldata).getLines().toList
     val outputLines = lines.zipWithIndex.map {
       case (line, 0) => s"$line,Comments"
       case (line, _) =>
@@ -26,3 +26,4 @@ object Main {
     Files.write(Paths.get("data7.txt"), outputLines.mkString("\n").getBytes)
   }
 }
+# pull data6.txt from "fulldata" and write data7.txt to "fulldata" also

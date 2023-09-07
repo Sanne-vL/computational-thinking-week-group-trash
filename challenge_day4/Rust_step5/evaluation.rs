@@ -5,16 +5,16 @@ use std::fs::OpenOptions;
 use std::io::Write;
 
 fn main() -> io::Result<()> {
-    let path = Path::new("data5.txt");
+    let path = Path::new("/Users/eunjeongchoi/Desktop/robotcamp/computational-thinking-week-group-trash/challenge_day4/testdata/data5.txt");
     let file = File::open(&path)?;
     let reader = io::BufReader::new(file);
     
     let mut output = OpenOptions::new()
         .write(true)
         .create(true)
-        .open("data6.txt")?;
+        .open("/Users/eunjeongchoi/Desktop/robotcamp/computational-thinking-week-group-trash/challenge_day4/fulldata/data6.txt")?;
     
-    for (indexing, line) in reader.lines().enumerate() {
+    for (index, line) in reader.lines().enumerate() {
         let line = line?;
         
         if index == 0 {
@@ -52,7 +52,7 @@ fn main() -> io::Result<()> {
                 _ => (), // Skip if it's something else
             }
         }
-        
+    
         let evaluation = if num_skills > 0 {
             (total_score as f32) / (num_skills as f32)
         } else {
@@ -64,4 +64,3 @@ fn main() -> io::Result<()> {
     
     Ok(())
 }
-

@@ -26,4 +26,3 @@ object Main {
     Files.write(Paths.get("data7.txt"), outputLines.mkString("\n").getBytes)
   }
 }
-# pull data6.txt from "fulldata" and write data7.txt to "fulldata" also

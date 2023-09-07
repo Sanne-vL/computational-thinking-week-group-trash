@@ -1,10 +1,10 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
 # Read the CSV file into a DataFrame
-people_df = CSV.File("data3.csv") |> DataFrame
+people_df = CSV.File("C:\\Users\\sanne\\OneDrive - UvA\\2023-2024\\Robot camp\\Day 1\\computational-thinking-week-group-trash\\challenge_day4\\testdata\\data3.csv") |> DataFrame
 
 # Function to classify a score based on quartiles
-function classify_score(score, quartiles)
+function classification_score(score, quartiles)
     if score <= quartiles[1]
         return "low"
     elseif score <= quartiles[2]
@@ -37,7 +37,7 @@ for col_name in names(people_df)[2:end]
 end
 
 # Save the modified DataFrame back to a new CSV file
-CSV.write("data4.txt", people_df)
+CSV.write("C:\\Users\\sanne\\OneDrive - UvA\\2023-2024\\Robot camp\\Day 1\\computational-thinking-week-group-trash\\challenge_day4\\fulldata\\data4.txt", people_df)
 
 # Save the modified DataFrame back to a new TXT file
 #writedlm("data4.txt", people_df, ',')

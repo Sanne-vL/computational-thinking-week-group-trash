@@ -32,4 +32,4 @@ json_data$people <- people_df
 json_text <- toJSON(json_data, pretty = TRUE)
 
 # Overwrite the original JSON file
-write(json_text, "data2.json")
+write(json_text, "data1.json")

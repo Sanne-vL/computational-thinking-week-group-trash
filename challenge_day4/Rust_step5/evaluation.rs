@@ -12,7 +12,7 @@ fn main() -> io::Result<()> {
     let mut output = OpenOptions::new()
         .write(true)
         .create(true)
-        .open("/Users/eunjeongchoi/Desktop/robotcamp/computational-thinking-week-group-trash/challenge_day4/testdata/data6.txt")?;
+        .open("/Users/eunjeongchoi/Desktop/robotcamp/computational-thinking-week-group-trash/challenge_day4/fulldata/data6.txt")?;
     
     for (index, line) in reader.lines().enumerate() {
         let line = line?;

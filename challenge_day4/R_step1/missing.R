@@ -7,8 +7,7 @@ if (!requireNamespace("jsonlite", quietly = TRUE)) {
 library(jsonlite)
 
 # Read the JSON file into a data frame
-setwd("..")
-setwd("fulldata")
+setwd("C:\\Users\\jotin\\OneDrive\\Documents\\UvA\\Semester_3\\DE\\Bootcamp\\computational-thinking-week-group-trash\\challenge_day4\\fulldata")
 json_data <- fromJSON(readLines("data1.json"))
 
 # Convert the 'people' list to a data frame

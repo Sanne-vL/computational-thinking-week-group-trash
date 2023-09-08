@@ -4,7 +4,7 @@ import scala.util.Try
 object Main {
   def main(args: Array[String]): Unit = {
     val filePath = "/Users/liss/Desktop/TRASHGIT/computational-thinking-week-group-trash/challenge_day4/fulldata/data6.txt"
-    val lines = scala.io.Source.fromFile("data6.txt").getLines().toList
+    val lines = scala.io.Source.fromFile(filePath).getLines().toList
     val outputLines = lines.zipWithIndex.map {
       case (line, 0) => s"$line,Comments"
       case (line, _) =>
